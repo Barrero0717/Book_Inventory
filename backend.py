@@ -43,7 +43,7 @@ def view_all():
 def search(title="", author="", year="", isbn=""):
     conn = sqlite3.connect("books.db")
     cur = conn.cursor()
-    cur.execute("SELECT * FROM book WHERE item=? OR author=? OR year=? OR isbn=?", (title, author, year, isbn))
+    cur.execute("SELECT * FROM book WHERE title=? OR author=? OR year=? OR isbn=?", (title, author, year, isbn))
     rows = cur.fetchall()
     conn.close()
     return rows
@@ -58,7 +58,7 @@ def delete(id):
 def update(id, title, author, year, isbn):
     conn = sqlite3.connect("books.db")
     cur = conn.cursor()
-    cur.execute("UPDATE book SET item=?, author=?, year=?, isbn=? WHERE id=?",(id, title, author, year, isbn))
+    cur.execute("UPDATE book SET title=?, author=?, year=?, isbn=? WHERE id=?",(id, title, author, year, isbn))
     conn.commit()
     conn.close()
 
