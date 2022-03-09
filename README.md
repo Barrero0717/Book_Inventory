@@ -1,9 +1,9 @@
-# Book_Inventory
+# Book_Inventory 
 _Book inventory desktop GUI database app using Python, tkinter library and SQLite_
 
 ## Getting Started  🚀
 
-_This is a simple Python application intended to provide a working example of Tkinter and SQLite library. The goal of these app is create and manipulate the records of a library, using a user-friendly graphical interface, and saving the records in a database. 
+_This is a simple Python application intended to provide a working example of Tkinter and SQLite library. The goal of these app is create and manipulate the records of a library, using a user-friendly graphical interface, and saving the records in a database._
 
 ### Pre-requisites  📋
 
@@ -30,8 +30,6 @@ python frontend.py
 ```
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Andrés Felipe Barrero Arce** - [Barrero0717](https://github.com/barrero0717)
 
