@@ -1,4 +1,4 @@
-# Book_Inventory 
+# Book Inventory 
 _Book inventory desktop GUI database app using Python, tkinter library and SQLite_
 
 ## Getting Started  🚀
