@@ -29,7 +29,12 @@ _After clone the repository, just run this command into the terminal:_
 python frontend.py
 ```
 
-## Autores ✒️
+_and you will must see this window:_
+
+![image](https://user-images.githubusercontent.com/66132335/158263077-c33815c3-100f-4295-ab26-1e79bd889c23.png)
+
+
+## Authors ✒️
 
 * **Andrés Felipe Barrero Arce** - [Barrero0717](https://github.com/barrero0717)
 
